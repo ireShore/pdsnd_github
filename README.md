@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+Date Created: 2020 Feb 6
 
 ### Project Title
-Replace the Project Title
+Bikeshare
 
 ### Description
-Describe what your project is about and what it does
+It is an interactive python program that provides some descriptive statistics of a set of raw data.
+Users can filter the result by City, Month and Day through inputting the filter they want.
 
 ### Files used
-Include the files used
+Three raw sets of data of CSV files(chicago, new_york_city, washington) are required to run the project.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Credits to Udacity
