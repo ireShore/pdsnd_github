@@ -46,7 +46,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
-def load_data(city, month, day):
+def load_city_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
 
@@ -187,7 +187,7 @@ def load_5_row(df):
 def main():
     while True:
         city, month, day = get_filters()
-        df = load_data(city, month, day)
+        df = load_city_data(city, month, day)
         pd.set_option('display.max_columns', None)
         time_stats(df)
         station_stats(df)
