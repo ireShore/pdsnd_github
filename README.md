@@ -12,4 +12,4 @@ Users can filter the result by City, Month and Day through inputting the filter 
 Three raw sets of data of CSV files(chicago, new_york_city, washington) are required to run the project.
 
 ### Credits
-Credits to Udacity
+Credits to [Udacity](https://www.udacity.com/).
