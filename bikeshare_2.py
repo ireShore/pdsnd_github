@@ -170,7 +170,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-def load_5_row(df):
+def load_5_row_raw_data(df):
     '''load 5 rows / next 5 rows of raw data if user choose to see'''
     location_of_raw_data = 0
     while True:
@@ -193,14 +193,14 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        load_5_row(df)
+        load_5_row_raw_data(df)
 
         while True:
             restart = input('\nWould you like to restart? Enter yes or no.\n')
             if restart.lower() not in ['yes', 'no']:
                 print('Please enter correct command.')
             elif restart.lower() == 'yes':
-                #reset the point of retrieving the raw data in load_5_row(df) function
+                #reset the point of retrieving the raw data in load_5_row_raw_data(df) function
                 location_of_raw_data = 0
                 break
             elif restart.lower() == 'no':
