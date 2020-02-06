@@ -200,6 +200,7 @@ def main():
             if restart.lower() not in ['yes', 'no']:
                 print('Please enter correct command.')
             elif restart.lower() == 'yes':
+                #reset the point of retrieving the raw data in load_5_row(df) function
                 location_of_raw_data = 0
                 break
             elif restart.lower() == 'no':
